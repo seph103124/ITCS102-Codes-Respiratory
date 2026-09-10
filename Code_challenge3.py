@@ -26,13 +26,13 @@ elif is_international == True and is_express == True:
     
 #express or heavy international
 
-elif is_express == True or is_international == True and weight > 25:
+elif is_express == True or is_international == True and weight > 20:
     print("Parcel is express or heavy international applied")    
     Total = (base_cost * 1.20) + 25
     
 #Oversized
 
-elif weight > 25 or distance > 1000:
+elif weight > 30 or distance > 1000:
     print("Oversize applied")
     Total = base_cost + 30
     
