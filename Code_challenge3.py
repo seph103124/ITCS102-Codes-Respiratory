@@ -14,7 +14,7 @@ base_cost = (weight * 2.5) + (distance * 0.15)
 
 #free shipping
 
-if weight <= 0 and distance <= 100 and is_express == False and is_international == False:
+if weight <= 2 and distance <= 100 and is_express == False and is_international == False:
     print("Free shipping")
     total = 0
 
